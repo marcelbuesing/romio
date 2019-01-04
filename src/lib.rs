@@ -72,3 +72,5 @@ mod reactor;
 pub use crate::tcp::{TcpListener, TcpStream};
 #[doc(inline)]
 pub use crate::udp::UdpSocket;
+#[doc(inline)]
+pub use crate::reactor::poll_evented::PollEvented;

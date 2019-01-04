@@ -1,5 +1,5 @@
 pub(crate) mod background;
-mod poll_evented;
+pub(crate) mod poll_evented;
 mod registration;
 mod sharded_rwlock;
 
